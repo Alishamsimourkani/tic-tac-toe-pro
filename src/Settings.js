@@ -70,6 +70,7 @@ export default function Settings({
               <option value="easy">Easy</option>
               <option value="medium">Medium</option>
               <option value="hard">Hard</option>
+              <option value="ai">AI Engine</option>
             </select>
           </label>
         )}

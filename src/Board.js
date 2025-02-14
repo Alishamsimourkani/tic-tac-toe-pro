@@ -17,7 +17,7 @@ export default function Board({
     if (
       lastMoveIndex !== null &&
       gameSize > 3 &&
-      move < gameSize * Math.ceil(gameSize / 2)
+      move < gameSize * Math.ceil(gameSize / 1.5)
     ) {
       const neighbors = getNeighbors(lastMoveIndex, gameSize);
       const lastRow = Math.floor(lastMoveIndex / gameSize);

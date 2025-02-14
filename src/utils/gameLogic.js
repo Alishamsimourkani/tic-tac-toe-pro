@@ -64,7 +64,7 @@ export function getForbiddenMoves(lastMoveIndex, gameSize, currentMove) {
   if (
     lastMoveIndex === null ||
     gameSize <= 3 ||
-    currentMove + 1 >= gameSize * Math.ceil(gameSize / 2)
+    currentMove + 1 >= gameSize * Math.ceil(gameSize / 1.5)
   ) {
     return []; // No restrictions at the start
   }
